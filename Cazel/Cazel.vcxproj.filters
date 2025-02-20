@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cazel">
+      <UniqueIdentifier>{14AFF20C-80C3-1ABE-4945-BE1DB51817EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Cazel.h" />
+    <ClInclude Include="src\Cazel\Application.h">
+      <Filter>Cazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cazel\Core.h">
+      <Filter>Cazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cazel\EntryPoint.h">
+      <Filter>Cazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cazel\Log.h">
+      <Filter>Cazel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Cazel\Application.cpp">
+      <Filter>Cazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cazel\Log.cpp">
+      <Filter>Cazel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

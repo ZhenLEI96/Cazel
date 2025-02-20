@@ -2,8 +2,8 @@
 
 // for use by Cazel application
 
-#include "Cazel/Core.h"
 #include "Cazel/Application.h"
+#include "Cazel/Log.h"
 
 
 //-------------entrypotin-----------
