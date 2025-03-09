@@ -4,6 +4,9 @@
     <Filter Include="Cazel">
       <UniqueIdentifier>{14AFF20C-80C3-1ABE-4945-BE1DB51817EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cazel\Events">
+      <UniqueIdentifier>{781CD209-647F-61AE-0D05-9A64F9462D31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Cazel.h" />
@@ -16,8 +19,20 @@
     <ClInclude Include="src\Cazel\EntryPoint.h">
       <Filter>Cazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Cazel\Events\ApplicationEvent.h">
+      <Filter>Cazel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cazel\Events\Event.h">
+      <Filter>Cazel\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Cazel\Log.h">
       <Filter>Cazel</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Cazel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Cazel\Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

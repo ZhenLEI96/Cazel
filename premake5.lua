@@ -26,14 +26,14 @@ project "Cazel"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include"
-
+		"%{prj.name}/src/",
+		"%{prj.name}/vendor/spdlog/include",
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0.26100.0"
+		systemversion "latest"
 
 		defines
 		{
@@ -72,8 +72,8 @@ project "Sandbox"
 
 	includedirs
 	{
+		"Cazel/src",
 		"Cazel/vendor/spdlog/include",
-		"Cazel/src"
 	}
 
 	links
@@ -85,7 +85,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0.26100.0"
+		systemversion "latest"
 
 		defines
 		{

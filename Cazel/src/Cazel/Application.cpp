@@ -1,15 +1,28 @@
-#include "Application.h"
-namespace Cazel {
-	Application::Application()
-	{
-	}
+#include "Application.h" // 引入 Application 类的声明
 
-	Application::~Application()
-	{
-	}
-	void Application::run()
-	{
-		while (true);
-	}
-}
+namespace Cazel { // 使用命名空间避免命名冲突
 
+    // 构造函数，用于初始化应用程序实例
+    Application::Application()
+    {
+        // 优化建议：在这里初始化应用程序所需的资源，例如窗口、渲染器、日志系统等。
+    }
+
+    // 析构函数，用于释放应用程序占用的资源
+    Application::~Application()
+    {
+        // 优化建议：在这里释放资源，例如关闭文件、释放内存等。
+    }
+
+    // 主循环函数，运行应用程序
+    void Application::run()
+    {
+        // 当前实现是一个无限循环，没有任何实际逻辑
+        // 优化建议：
+        // 1. 添加事件处理逻辑，例如检测用户输入或窗口关闭事件。
+        // 2. 添加更新逻辑，例如更新游戏状态或应用程序数据。
+        // 3. 添加渲染逻辑，例如绘制图形到屏幕。
+        // 4. 提供退出机制，例如检测用户是否按下退出键。
+        while (true);
+    }
+} // namespace Cazel

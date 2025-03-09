@@ -9,3 +9,5 @@
 #else
 	#error Cazel only supports Windows!
 #endif //  CZ_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)
